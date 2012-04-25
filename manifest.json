@@ -1,0 +1,16 @@
+{
+   "background_page": "back.html",
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "montyScript",
+      "popup": "abc.html"
+   },
+   "description": "SAVE TIME :Check your attendence without opening imsec.ac.in",
+   "icons": {
+      "128": "icon.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjIrDEXNNQipP5w+rT7GYQai7Agrn1phRtX8vTHGwEAS0Wn+UG6J26iRh1xRptipqAS7NTopyT78QVs2fjFIdApQ4mvRpQTRYUpYIO6xK4gBQ979wRDpgifEEZzBaBCOQr6eB9m0JTWBNSJEe8UbMVbWb6+k327dVh+5eMmczwGwIDAQAB",
+   "name": "montyScript Beta",
+   "permissions": [ "http://*.*.*/", "https://*.*.*/" ],
+   "version": "0.0.1"
+}

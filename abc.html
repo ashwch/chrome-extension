@@ -1,0 +1,51 @@
+<html>
+<head>
+<style type="text/css" >
+#status{background-color:#EBD330;}
+#mail{text-decoration:none;}
+</style> 
+<script type="text/javascript" src="defScript.js">
+</script>
+
+<body>
+<div>
+
+<form action="http://117.55.241.124/cull2011.jsp" method=post name="form1">
+
+<table>
+<tr><td><b>Roll number:</b></td><td><input type="text" value="" name="rolle" onchange="shortc()"></td></tr> 
+<tr><td><b>
+Branch:</b></td>
+<td>
+<select name=subbranch id="branche">
+<option value=CS1>CS-1 
+<option value=CS2>CS-2
+<option value=IT>IT
+<option value=EC>EC
+<option value=EN>EEE
+<option value=ME>ME
+<option value=BT>BT
+<option value=MCA>MCA
+<option value=MBA>MBA
+<option value=2CS>CS (2nd shift) 
+<option value=2EC>EC (2nd shift)</select>
+</td></tr>
+<tr><td><b>
+Year:</b></td><td>
+<select name=subyear id="yeear" >
+<option value=1>I year 
+<option value=2>II year 
+<option value=3>III year
+<option value=4>IV year </select>
+</td></tr>
+<tr><td></td><td>
+<input type=hidden name=att value=Theory> 
+<input type=hidden name=batch value=All> 
+<input type=submit value=SHOW></td></tr> 
+</table>
+</form>
+</div><div>
+<b><span  id="status"></span></b>
+ <p><img src="email.gif" alt="email"> <a href="mailto:monty.sinngh@gmail.com?subject=FeedBack" id="mail" target="_blank" title="feedback" ><small>Suggestions</small></a><p></div>
+</body>
+</html>
